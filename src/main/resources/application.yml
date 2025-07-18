@@ -1,0 +1,24 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jyotirmay-gupta/tiny-config-repository.git
+          clone-on-start: true
+          username: jyotirmay-gupta
+          password: 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
+  security:
+    user:
+      name: tinyconfiguser
+      password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,env,refresh,configprops
+  endpoint:
+    health:
+      show-details: always
