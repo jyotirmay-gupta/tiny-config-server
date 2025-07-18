@@ -24,11 +24,11 @@ spring:
           uri: https://github.com/jyotirmay-gupta/tiny-config-repository.git
           clone-on-start: true
           username: jyotirmay-gupta
-          password: ${CONFIG_PASSWORD}
+          password: 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
   security:
     user:
       name: tinyconfiguser
-      password: ${USER_PASSWORD}
+      password: password
 management:
   endpoints:
     web:
