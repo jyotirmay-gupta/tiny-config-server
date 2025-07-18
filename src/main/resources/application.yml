@@ -13,7 +13,7 @@ spring:
   security:
     user:
       name: tinyconfiguser
-      password: password
+      password: ${USER_PASSWORD}
 management:
   endpoints:
     web:
