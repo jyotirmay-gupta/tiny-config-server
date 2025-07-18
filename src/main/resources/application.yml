@@ -9,7 +9,7 @@ spring:
           uri: https://github.com/jyotirmay-gupta/tiny-config-repository.git
           clone-on-start: true
           username: jyotirmay-gupta
-          password: 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
+          password: ${CONFIG_PASSWORD}
   security:
     user:
       name: tinyconfiguser
