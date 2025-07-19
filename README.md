@@ -2,6 +2,15 @@
 
 **Copyright (c) 2025 Jyotirmay Gupta**
 
+[![Build Status](https://github.com/jyotirmay-gupta/tiny-config-server/actions/workflows/maven.yml/badge.svg)](https://github.com/jyotirmay-gupta/tiny-config-server/actions/workflows/maven.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/jyotirmay-gupta/tiny-config-server.svg)](https://github.com/jyotirmay-gupta/tiny-config-server/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/jyotirmay-gupta/tiny-config-server.svg)](https://github.com/jyotirmay-gupta/tiny-config-server/commits)
+[![Contributors](https://img.shields.io/github/contributors/jyotirmay-gupta/tiny-config-server.svg)](https://github.com/jyotirmay-gupta/tiny-config-server/graphs/contributors)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-v3.5.3-brightgreen)](https://spring.io/projects/spring-boot)
+[![Spring Cloud Config Server](https://img.shields.io/badge/Spring%20Cloud%20Config%20Server-v2025.0.0-brightgreen)](https://spring.io/projects/spring-cloud-config)
+[![Java](https://img.shields.io/badge/Java-21-brightgreen)](https://www.oracle.com/java/)
+
 **Project:** Tiny Config Server  
 **Description:** This is a personal Spring Cloud Config Server implementation by Jyotirmay Gupta. It serves as a centralized configuration management system for distributed Spring Boot applications.
 
